@@ -8,7 +8,7 @@
     <style>
       :root {
         --primary: #2c3e50;
-        --accent: #d4af37; /* Gold accent for UI/Tax professionalism */
+        --accent: #d4af37;
         --text-light: #f8f9fa;
         --bg-dark: #1a1a1a;
         --card-bg: #ffffff;
@@ -27,7 +27,6 @@
         line-height: 1.6;
       }
 
-      /* Hero Section */
       header {
         background: linear-gradient(135deg, var(--primary) 0%, #1a1a1a 100%);
         color: white;
@@ -56,6 +55,7 @@
         font-size: 2.5rem;
         margin-bottom: 10px;
       }
+
       .subtitle {
         font-size: 1.2rem;
         color: var(--accent);
@@ -63,7 +63,6 @@
         margin-bottom: 20px;
       }
 
-      /* Navigation */
       nav {
         background: white;
         padding: 15px;
@@ -86,10 +85,10 @@
         color: var(--accent);
       }
 
-      /* Sections */
       section {
         padding: 60px 20px;
       }
+
       .section-title {
         text-align: center;
         margin-bottom: 40px;
@@ -105,7 +104,6 @@
         margin: 10px auto;
       }
 
-      /* Cards & Layout */
       .grid {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -134,7 +132,6 @@
         margin-bottom: 10px;
       }
 
-      /* Skills */
       .skills-container {
         display: flex;
         flex-wrap: wrap;
@@ -149,7 +146,6 @@
         font-weight: 500;
       }
 
-      /* Footer & Contact */
       footer {
         background: var(--primary);
         color: white;
@@ -185,7 +181,7 @@
         }
         nav {
           display: none;
-        } /* Mobile simplicity */
+        }
       }
     </style>
   </head>
@@ -194,45 +190,89 @@
       <div class="container">
         <img src="profile-img.png" alt="Iqbal Projo" class="profile-img" />
         <h1>MOH IQBAL TEGUH PRANOTO PROJO</h1>
-        <p class="subtitle">Tax Administration Student | Content Creator</p>
+        <p class="subtitle">Under Graduate</p>
         <p style="max-width: 700px; margin: auto; opacity: 0.9">
-          Tax Administration student at the University of Indonesia focusing on
-          technology development, audit, and creative content production.
-          Experienced in travel document administration and active in campus
-          organizations.
+          Currently pursuing an Undergraduate degree in Tax Administration at
+          the University of Indonesia with a strong interest in taxation,
+          technological developments, and self-development.
         </p>
+        <div style="margin-top: 20px">
+          <a href="#pengalaman" class="contact-btn">Lihat Portfolio</a>
+          <a href="#hubungi" class="contact-btn" style="margin-left: 10px"
+            >Hubungi Saya</a
+          >
+        </div>
+        <div style="margin-top: 25px">
+          <span class="tag">2+ Tahun Pengalaman</span>
+          <span class="tag" style="margin-left: 10px">3 Sertifikasi</span>
+        </div>
       </div>
     </header>
 
     <nav>
-      <a href="#pengalaman">Experience</a>
-      <a href="#pendidikan">Education</a>
-      <a href="#organisasi">Organizations</a>
-      <a href="#keahlian">Skills</a>
-      <a href="#penghargaan">Achievements</a>
+      <a href="#tentang">Tentang</a>
+      <a href="#pengalaman">Pengalaman</a>
+      <a href="#pendidikan">Pendidikan</a>
+      <a href="#organisasi">Organisasi</a>
+      <a href="#keahlian">Kompetensi</a>
+      <a href="#kredensial">Kredensial</a>
+      <a href="#penghargaan">Penghargaan</a>
+      <a href="#hubungi">Hubungi</a>
     </nav>
 
-    <section id="pengalaman" class="container">
-      <h2 class="section-title">Professional Experience</h2>
+    <section id="tentang" class="container">
+      <h2 class="section-title">Tentang Saya</h2>
       <div class="grid">
         <div class="card">
-          <span class="tag">Jan 2024 - Present</span>
-          <h3>Administrative Staff</h3>
-          <p><strong>PT. Mutmainah Berkah Travel</strong></p>
+          <h3>Ringkasan Profesional</h3>
+          <p>
+            Currently pursuing an Undergraduate degree in Tax Administration at
+            the University of Indonesia with a strong interest in taxation,
+            technological developments, and self-development. A disciplined and
+            responsible individual who completes tasks on time and works in an
+            organized manner. Actively involved in campus organizations, which
+            have strengthened communication, teamwork, and problem-solving
+            skills. Passionate about technology trends and creative content
+            production, particularly in photography and videography. Eager to
+            continue learning, growing, and contributing positively to both
+            academic and social environments.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Informasi Kontak</h3>
+          <p><strong>Email:</strong> iqbalsatriya85@gmail.com</p>
+          <p><strong>Telepon:</strong> +6289675627320</p>
+          <p>
+            <strong>LinkedIn:</strong>
+            <a href="#" style="color: var(--primary)">Lihat Profil</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="pengalaman" class="container">
+      <h2 class="section-title">Perjalanan Karir</h2>
+      <div class="grid">
+        <div class="card">
+          <span class="tag">Januari 2024 - Sekarang</span>
+          <h3>Administrative Staff – PT. Mutmainah Berkah Travel</h3>
           <ul>
-            <li>Managing Umrah and Hajj passport processing.</li>
-            <li>Customer data entry and ensuring document accuracy.</li>
+            <li>Managed passport processing for Umrah and Hajj applicants.</li>
+            <li>
+              Handled customer data entry and ensured accuracy of travel
+              documents.
+            </li>
           </ul>
         </div>
         <div class="card">
-          <span class="tag">Jan 2025</span>
-          <h3>Internal Auditor</h3>
-          <p><strong>CV. Putri Wilis</strong></p>
+          <span class="tag">Januari 2025 - Januari 2025</span>
+          <h3>Audit Intern – CV. Putri Wilis</h3>
           <ul>
             <li>
-              Assisting in financial audits and supporting document review.
+              Assisted in conducting financial audits and reviewing supporting
+              documents.
             </li>
-            <li>Preparing audit working papers and result reports.</li>
+            <li>Helped prepare audit working papers and reports.</li>
           </ul>
         </div>
       </div>
@@ -240,61 +280,158 @@
 
     <section id="pendidikan" style="background: #fff">
       <div class="container">
-        <h2 class="section-title">Education</h2>
+        <h2 class="section-title">Pendidikan</h2>
         <div class="grid">
           <div class="card" style="border-left: 5px solid var(--accent)">
-            <h3>University of Indonesia</h3>
-            <p>Bachelor's in Tax Administration (2025 - Present)</p>
-            <p><strong>GPA: 3.81 / 4.00</strong></p>
+            <h3>University of Indonesia • Jakarta</h3>
+            <p>
+              Undergraduate Student Tax Administration (Januari 2025 - Sekarang)
+            </p>
+            <p><strong>IPK: 3.81 / 4.00</strong></p>
           </div>
           <div class="card">
             <h3>MAS Amanatul Ummah</h3>
-            <p>Surabaya (2022 - 2025)</p>
-            <p>Overall Score: 93.00 / 100</p>
+            <p>Surabaya (Januari 2022 - Januari 2025)</p>
+            <p>Nilai Keseluruhan: 93,00 / 100</p>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="organisasi" class="container">
+      <h2 class="section-title">Organisasi</h2>
+      <div class="grid">
+        <div class="card">
+          <span class="tag">November 2025 - Sekarang</span>
+          <h3>Event Communication</h3>
+          <p><strong>UI Festival Tax Competition • Jakarta</strong></p>
+          <ul>
+            <li>
+              Contacted potential sponsors and maintained communication with
+              partners.
+            </li>
+          </ul>
+        </div>
+        <div class="card">
+          <span class="tag">Oktober 2025 - Sekarang</span>
+          <h3>Development Human Resources</h3>
+          <p><strong>Bina Desa Community Service Program • Banten</strong></p>
+          <ul>
+            <li>Supported free health check service for local residents.</li>
+            <li>
+              Assisted in organizing mentoring for 10 local small businesses.
+            </li>
+          </ul>
+        </div>
+        <div class="card">
+          <span class="tag">Januari 2025 - Sekarang</span>
+          <h3>Creative Media Bureau Staff – HMP</h3>
+          <ul>
+            <li>
+              Developed daily social media content and designed multimedia
+              materials using Adobe Photoshop to strengthen digital engagement.
+            </li>
+            <li>
+              Provided learning support and interactive sessions for
+              approximately seven elderly residents.
+            </li>
+          </ul>
+        </div>
+        <div class="card">
+          <span class="tag">Januari 2025 - Sekarang</span>
+          <h3>Staff of Social, Community, and Environment Department – HMP</h3>
+          <ul>
+            <li>
+              Contributed to the planning and implementation of four social and
+              environmental initiatives.
+            </li>
+          </ul>
         </div>
       </div>
     </section>
 
     <section id="keahlian" class="container">
-      <h2 class="section-title">Skills & Tools</h2>
-      <div class="skills-container">
-        <span class="skill-item">Accounting</span>
-        <span class="skill-item">Video Editing</span>
-        <span class="skill-item">Digital Marketing</span>
-        <span class="skill-item">Adobe Photoshop</span>
-        <span class="skill-item">Microsoft Excel</span>
-        <span class="skill-item">Google Analytics</span>
-        <span class="skill-item">Public Speaking</span>
-        <span class="skill-item">Critical Thinking</span>
-      </div>
-    </section>
-
-    <section id="penghargaan" style="background: #fff">
-      <div class="container">
-        <h2 class="section-title">Achievements</h2>
-        <div class="grid">
-          <div class="card">
-            <i class="fas fa-trophy" style="color: gold"></i>
-            <p>1st Best Content Video - University of Indonesia</p>
+      <h2 class="section-title">Kompetensi Inti</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Hard Skills</h3>
+          <div class="skills-container">
+            <span class="skill-item">Akuntansi</span>
+            <span class="skill-item">Editing Video</span>
+            <span class="skill-item">Kreator Konten</span>
+            <span class="skill-item">Pemasaran Digital</span>
           </div>
-          <div class="card">
-            <i class="fas fa-award" style="color: silver"></i>
-            <p>2nd Place Sociology - Airlangga University</p>
+        </div>
+        <div class="card">
+          <h3>Soft Skills</h3>
+          <div class="skills-container">
+            <span class="skill-item">Berbicara di Depan Umum</span>
+            <span class="skill-item">Berpikir Kritis</span>
+            <span class="skill-item">Fleksibilitas</span>
+            <span class="skill-item">Keterampilan Interpersonal</span>
+            <span class="skill-item">Komunikasi</span>
+            <span class="skill-item">Kreativitas</span>
           </div>
-          <div class="card">
-            <i class="fas fa-medal" style="color: #cd7f32"></i>
-            <p>Silver Medal Mathematics - National Level (NOOS)</p>
+        </div>
+        <div class="card">
+          <h3>Software & Tools</h3>
+          <div class="skills-container">
+            <span class="skill-item">Adobe Photoshop</span>
+            <span class="skill-item">Canva</span>
+            <span class="skill-item">Google Analytics</span>
+            <span class="skill-item">Microsoft Excel</span>
+            <span class="skill-item">Microsoft PowerPoint</span>
           </div>
         </div>
       </div>
     </section>
 
-    <footer>
+    <section id="kredensial" style="background: #fff">
       <div class="container">
-        <h2>Let's Collaborate</h2>
+        <h2 class="section-title">Kredensial</h2>
+        <div class="grid">
+          <div class="card">
+            <h3>Sertifikasi & Lisensi</h3>
+            <ul>
+              <li>Digital Talent Scholarship 2025 – KOMDIGI</li>
+              <li>Google Digital Certification</li>
+              <li>General Occupational Health and Safety Expert</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="penghargaan" style="background: #fff">
+      <div class="container">
+        <h2 class="section-title">Penghargaan</h2>
+        <div class="grid">
+          <div class="card">
+            <i class="fas fa-trophy" style="color: gold"></i>
+            <p>1st Best Content Video – Universitas Indonesia</p>
+          </div>
+          <div class="card">
+            <i class="fas fa-award" style="color: silver"></i>
+            <p>2nd Place – Sociology Competition</p>
+            <p>SEMPOA X Social Science Airlangga Competition</p>
+          </div>
+          <div class="card">
+            <i class="fas fa-medal" style="color: #cd7f32"></i>
+            <p>Bronze Medalist – Dewantara Education Olympiad</p>
+            <p>Silver Medalist – Dewantara Education Olympiad</p>
+            <p>
+              Silver Medal in Mathematics competition at national level (NOOS)
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="hubungi">
+      <div class="container">
+        <h2>Mari Terhubung</h2>
         <p>
-          Interested in discussing further about taxation or creative content?
+          Siap untuk berkolaborasi? Hubungi saya untuk diskusi lebih lanjut.
         </p>
         <a href="mailto:iqbalsatriya85@gmail.com" class="contact-btn"
           >Contact Me</a
@@ -304,8 +441,16 @@
           <a href="#"><i class="fab fa-instagram"></i></a>
           <a href="#"><i class="fab fa-tiktok"></i></a>
         </div>
+        <div style="margin-top: 25px">
+          <p><strong>Email:</strong> iqbalsatriya85@gmail.com</p>
+          <p><strong>Telepon:</strong> +6289675627320</p>
+          <p>
+            <strong>LinkedIn:</strong>
+            <a href="#" style="color: var(--text-light)">Lihat Profil</a>
+          </p>
+        </div>
         <p style="margin-top: 40px; font-size: 0.8rem; opacity: 0.7">
-          &copy; 2026 MOH IQBAL TEGUH PRANOTO PROJO. All Rights Reserved.
+          &copy; 2026 MOH IQBAL TEGUH PRANOTO PROJO. Hak Cipta Dilindungi.
         </p>
       </div>
     </footer>
